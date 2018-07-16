@@ -1,0 +1,23 @@
+//自建两组函数mice及run
+#include <iostream>
+using namespace std;
+void mice(); 
+void run(); 
+
+int main()
+{
+	mice(); 
+	mice(); 
+	run(); 
+	run(); 
+	system("pause"); 
+	return 0; 
+}
+void mice() 
+{
+	cout << "Three Blind Mice" << endl;
+}
+void run() 
+{
+	cout << "See How They Run" << endl;
+} 
