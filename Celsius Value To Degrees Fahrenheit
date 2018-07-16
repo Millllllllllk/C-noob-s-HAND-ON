@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+void C();
+
+int main()
+{
+	cout << "Please enter a Celsius Value : ";
+  int  carrots;
+	cin >> carrots;
+	cout << endl;
+	int B;
+	B = 1.8 * carrots + 32.0;
+	cout << carrots << " degrees Celsius is " << B << " degrees Fahrenheit." << endl;
+	system("pause");
+	return 0;
+}
