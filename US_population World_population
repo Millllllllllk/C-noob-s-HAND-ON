@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	long long america_people = 0 ; //规定america_people类型为long long
+	long long world_people = 0;
+	double bilibili = 0.0;
+	
+	cout << "Enter the World's population :";
+	cin >> world_people;
+
+	cout << endl << "Enter the population of the US :";
+	cin >> america_people;
+
+	bilibili = double(america_people) / (world_people) * 100; //bilibili为（美人口）/（全球人口）的小数形式
+	cout << "The population of the US is " << bilibili << "%" << " of the world population" << endl;
+
+	system("pause");
+	return 0;
+		
+}
