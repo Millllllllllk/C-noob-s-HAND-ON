@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	const int x = 20;
+	char name[x];
+	char house[x];
+
+	cout << "What's ur name : " ;
+	cin.getline(name, x);
+	cout << "Where do u live : " ;
+	cin.getline(house, x);
+	cout << "I know u r " << name << " and u live in " << house;
+	system("pause");
+	return 0;
+	
+}
+
