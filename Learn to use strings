@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-	const int x = 20;
-	char name[x];
+	const int x = 20; //规定x的字符数
+	char name[x]; // 规定name为char类型且属于字符串[x]
 	char house[x];
 
 	cout << "What's ur name : " ;
-	cin.getline(name, x);
+	cin.getline(name, x); //使输入值成为字符串[x]中name的值
 	cout << "Where do u live : " ;
 	cin.getline(house, x);
 	cout << "I know u r " << name << " and u live in " << house;
