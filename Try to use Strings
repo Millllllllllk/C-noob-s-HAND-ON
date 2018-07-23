@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	const int All = 20;
+	char name[All];
+	char age[All];
+	
+	cout << "Who are u ?" << endl;
+	cin.getline(name, All);
+	cout << "How old are u ? " << endl;
+	cin.getline(age, All);
+	
+	cout << "So u r " << name << " and u are" << age;
+	system("pause");
+	return 0;
+}
