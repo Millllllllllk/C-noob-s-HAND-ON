@@ -1,0 +1,26 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main(){
+	long int a = 10;
+	long int b;
+
+	cout << "Enter Your Number : " << endl;
+	cin >> b;
+
+	if (a < b) {
+		cout << "First time" << endl;
+	}
+	else if (a > b) {
+		cout << "Second time " << endl;
+
+	}
+	else {
+		cout << "Third time " << endl;
+	}
+
+	system("pause");
+	return 0;
+}
+
