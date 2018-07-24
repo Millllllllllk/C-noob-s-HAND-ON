@@ -1,0 +1,16 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main() {
+	double money = 800.00;
+	int year = 2015;
+
+	while(money <= 2000){
+		money = money * (1 + 0.25);
+		cout << "Now it's " << year << " You have already have " << money << endl;
+		year++;
+	}
+	system("pause");
+	return 0;
+}
